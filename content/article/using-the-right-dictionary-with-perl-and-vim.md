@@ -103,7 +103,7 @@ When this script encounters a new letter's section, it calls [tell]({{< perldoc 
 
 Curiously this index data stopped at "S" the first time I ran it. That's because the copies of Webster's 1913 dictionary on archive.org are missing the "T" entry! I found the entry [online](http://www.webster-dictionary.org/definition/T) and added it to my copy.
 
-By incorporating this index data into my script, I'll jump to the section of the first letter of the search term, and start searching from there.
+By incorporating this index data into my script, I'll jump to the section of the first letter of the search term, and start searching from there:
 
 ```perl
 #!/usr/bin/perl
